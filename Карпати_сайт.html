@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Стежки Карпат</title>
+
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Jost:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+</head>
+<body>
+
+<header>
+  <div class="logo-burger">
+    <img src="image-2.png" class="logo" alt="Логотип">
+
+    <div class="burger-menu" onclick="toggleMenu()">
+      <span></span>
+      <span></span>
+      <span></span>
+    </div>
+  </div>
+
+  <nav class="main-nav">
+    <a href="#home">Головна</a>
+    <a href="#about">Про нас</a>
+    <a href="#carpathians">Карпати</a>
+    <a href="#tours">Тури</a>
+    <a href="#reviews">Відгуки</a>
+  </nav>
+
+  <div class="cabinet-button">
+    <img src="user-icon.png" alt="Іконка" class="icon">
+    <span class="text">Особистий кабінет</span>
+  </div>
+
+  <div class="mobile-nav" id="mobileNav">
+    <nav>
+      <a href="#home">Головна</a>
+      <a href="#about">Про нас</a>
+      <a href="#carpathians">Карпати</a>
+      <a href="#tours">Тури</a>
+      <a href="#reviews">Відгуки</a>
+      <a href="#cabinet">Особистий кабінет</a>
+    </nav>
+  </div>
+</header>
+
+<main>
+
+<div class="image-wrapper" id="home">
+
+  <div class="overlay">
+    <div class="overlay-content">
+      <div class="title-group">
+        <h1 class="main-title">Стежки Карпат</h1>
+        <div class="subtitle-bar">Відчуй серце гір</div>
+        <div class="decor-line"></div>
+      </div>
+
+      <div class="text-button-wrapper">
+        <p class="subtitle-text">
+          Відкрийте для себе всі найцікавіші гірські стежки, захоплюючі походи та автентичні розваги. 
+          Ваша ідеальна подорож до серця Карпат починається тут – в одному місці.
+        </p>
+        <button class="more-button">Дізнатись більше</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<div class="video-wrapper">
+  <video autoplay muted loop class="background-video">
+    <source src="video.mp4" type="video/mp4">
+  </video>
+
+  <div class="overlay">
+    <h1 class="main-title">Стежки Карпат</h1>
+    <p class="subtitle-text">Відчуй серце гір</p>
+    <button class="more-button">Дізнатись більше</button>
+  </div>
+</div>
+
+
+
+
+  <div class="about-wrapper" id="about">
+    <div class="about-left">
+      <h2 class="about-title">Про нас</h2>
+
+      <div class="about-text">
+        <p>Стежки Карпат — це команда людей, закоханих у гори. Ми створили платформу, де ви легко оберете й забронюєте походи та тури будь-якої складності.</p>
+        <p>Наші досвідчені гіди знають кожну стежку, дбають про вашу безпеку та допоможуть відкрити справжню магію Карпат. Ми покажемо вам більше, ніж просто гори!</p>
+      </div>
+
+      <div class="stats-row">
+        <img src="image (3).png" alt="Іконки" class="stats-image">
+        <div class="stats-text">
+          <p><strong>5 років</strong> досвіду</p>
+          <p><strong>3000+</strong> задоволених туристів</p>
+          <p><strong>200+</strong> організованих походів</p>
+          <p><strong>10</strong> досвідчених гідів</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="about-right">
+      <img src="image (4).png" alt="Додаткова картинка" class="stats-side-image">
+    </div>
+  </div>
+
+  <div class="section-wrapper" id="carpathians">
+    <h2 class="section-title">Карпати: Ваш путівник<br>до незабутнього відпочинку</h2>
+
+    <div class="section-description">
+      <p>Тут можна пройтися стежками Чорногірського хребта, піднятись на Говерлу чи Петрос, або прогулятись лісами.</p>
+      <p>Любителям води — сплави по Черемошу, а взимку — катання на лижах у Буковелі чи.</p>
+      <p>Для тих, хто шукає спокій — затишні садиби, чани з травами, вечори біля ватри. А для допитливих — екскурсії до старовинних фортець у Ужгороді, музеїв гуцульської культури, і дегустації місцевих сирів та меду.</p>
+      <p>Карпати — це не просто гори. Це місце, де можна відчути себе частиною природи, культури і пригоди.</p>
+    </div>
+
+    <h3 class="season-title">Вибір сезону для подорожей</h3>
+
+    <div class="season-row">
+      <img src="image (5).png" alt="Зима" class="season-winter">
+      <img src="image (6).png" alt="Весна" class="season-spring">
+    </div>
+
+    <div class="season-row2">
+      <img src="image (7).png" alt="Літо" class="season-summer">
+      <img src="image (9).png" alt="Осінь" class="season-autumn">
+    </div>
+
+    <div class="hint-box">
+      <img src="idea.png" alt="Підказка" class="hint-icon">
+      <h3 class="hint-text">Найбільш несприятливі місяці для походів: квітень (повені), листопад (тумани, снігопади, нестабільність).</h3>
+    </div>
+  </div>
+
+  <div class="booking-block" id="tours">
+    <h2 class="booking-title">Бронювання турів</h2>
+    <h3 class="booking-subtitle">Походи</h3>
+    <div class="tour-gallery">
+      <img src="image (10).png" alt="Синевир" class="tour-image">
+      <img src="image (11).png" alt="Петрос" class="tour-image">
+      <img src="image (12).png" alt="Свидовець" class="tour-image">
+      <button class="carousel-next">➤</button>
+    </div>
+  </div>
+
+
+<div class="reviews-section" id="reviews">
+  <h2 class="reviews-title">Відгуки</h2>
+
+  <div class="review-controls">
+    <button class="add-review">+ Додати відгук</button>
+    <button class="arrow-left">◀</button>
+    <button class="arrow-right">▶</button>
+  </div>
+
+<div class="review-card">
+  <div class="review-photo-block">
+    <img src="mykola.png" alt="Фото Миколи" class="review-photo">
+    <p class="review-name">
+      Микола <br>
+      <span class="review-date">20.09.2025</span>
+    </p>
+  </div>
+
+  <div class="review-content">
+    <p class="review-text">
+      Похід на Петрос з «Стежками Карпат» став для мене справжнім відкриттям.
+      Це був не просто маршрут — це пригода, що поєднала виклик, красу природи
+      та відчуття єдності з горами. Гід Андрій приємно вразив знанням місцевості
+      та впевненою поведінкою. Кожен крок відкривав нові пейзажі, а види з
+      вершини Петросу — це те, що треба побачити.
+      <br><br>
+      Я щиро вдячний за організацію, атмосферу та турботу. І знаю — це не
+      останній мій похід із вами. Карпати кличуть!
+    </p>
+  </div>
+</div>
+
+
+</div>
+
+
+</main>
+
+<footer class="footer">
+  <div class="footer-top"> 
+
+    <div class="footer-brand">
+      <img src="logo-footer.png" alt="Логотип Стежки Карпат" class="logo-footer">
+      <div class="footer-text1">
+        <p><strong>Стежки Карпат</strong> — команда, що живе пригодами! Ми створюємо маршрути для тих, хто хоче відчути свободу, підкорити вершини і побачити світ з нового ракурсу.</p>
+        <p class="footer-license">Офіційний туроператор активного відпочинку, ліцензія №272824</p>
+      </div>
+    </div>
+
+    <div class="footer-nav">
+      <p class="footer-title">Про нас</p>
+      <ul>
+        <li><a href="#about">Путівник Карпатами</a></li>
+        <li><a href="#tours">Наші тури</a></li>
+        <li><a href="#reviews">Відгуки</a></li>
+      </ul>
+
+      <p class="footer-title">Категорії турів</p>
+      <ul>
+        <li><a href="#tours-hikes">Походи</a></li>
+        <li><a href="#tours-culture">Культурні тури</a></li>
+        <li><a href="#tours-other">Інші</a></li>
+      </ul>
+    </div>
+
+    <div class="footer-contact">
+      <p class="footer-title">Контакти</p>
+      <p>Телефон:<br><a href="tel:+380954304290">+38 095 430 4290</a></p>
+      <p>Email:<br><a href="mailto:info@stezhkykarpat.ua">info@stezhkykarpat.ua</a></p>
+      <p>Графік роботи:<br>Пн–Сб 10:00–19:00 (GMT+2)</p>
+      <p>Головний офіс:<br>вул. Гірська, 12, офіс 3</p>
+      <p><span class="feedback-link" onclick="toggleForm()">Зворотній зв’язок</span></p>
+    </div>
+
+    <div class="footer-social">
+      <div>
+        <a href="https://facebook.com" target="_blank"><img src="facebook.png" alt="Facebook" class="social-icon"></a>
+        <a href="https://instagram.com" target="_blank"><img src="instagram.png" alt="Instagram" class="social-icon"></a>
+        <a href="https://t.me/username" target="_blank"><img src="telegram.png" alt="Telegram" class="social-icon"></a>
+        <a href="https://www.tiktok.com/@твій_профіль" target="_blank"><img src="tiktok.png" alt="TikTok" class="social-icon"></a>
+      </div>
+    </div>
+
+    <!-- Форма зворотного зв’язку -->
+    <form class="contact-form hidden" id="feedbackForm" action="#">
+      <fieldset>
+        <legend>Форма зворотного зв’язку</legend>
+
+        <label for="fname">Ваше ім’я:</label>
+        <input type="text" id="fname" name="fname" placeholder="Введіть ім’я">
+
+        <label for="lname">Ваше прізвище:</label>
+        <input type="text" id="lname" name="lname" placeholder="Введіть прізвище">
+
+        <label for="email">Електронна пошта:</label>
+        <input type="email" id="email" name="email" placeholder="example@gmail.com" required>
+
+        <div class="checkbox-group">
+          <p class="checkbox-title">Я хочу отримати інформацію про:</p>
+          <label><input type="checkbox" name="info-hikes"> Мандрівки Карпатами</label>
+          <label><input type="checkbox" name="info-events"> Майбутні події та походи</label>
+          <label><input type="checkbox" name="info-sales"> Акції та знижки</label>
+        </div>
+
+        <label for="message">Ваше повідомлення:</label>
+        <textarea id="message" name="message" placeholder="Введіть ваш коментар або питання..."></textarea>
+
+        <button type="submit" class="submit-btn">Надіслати</button>
+      </fieldset>
+    </form>
+
+  </div>
+
+  <div class="footer-bottom">
+    <div class="footer-row">
+      <p class="footer-text">© 2024 Стежки Карпат. Усі права захищені.</p>
+      <a href="#" class="privacy-link">Політика конфіденційності</a>
+    </div>
+  </div>
+</footer>
+
+
+
+<script>
+  function toggleMenu() {
+    const mobileNav = document.getElementById("mobileNav");
+    mobileNav.classList.toggle("show");
+  }
+</script>
+
+<script>
+  function toggleForm() {
+    const form = document.getElementById("feedbackForm");
+    form.classList.toggle("show");
+    form.classList.toggle("hidden");
+  }
+</script>
+
+
+
+
+</body>
+</html>
